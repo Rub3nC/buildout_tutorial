@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+import sys
+sys.path[0:0] = [
+    '/home/rcolina/.buildout/eggs/ZopeSkel-2.21.2-py2.7.egg',
+    '/home/rcolina/.buildout/eggs/Cheetah-2.2.1-py2.7-linux-i686.egg',
+    '/home/rcolina/.buildout/eggs/PasteScript-1.7.5-py2.7.egg',
+    '/home/rcolina/.buildout/eggs/setuptools-0.7.2-py2.7.egg',
+    '/home/rcolina/.buildout/eggs/PasteDeploy-1.5.0-py2.7.egg',
+    '/home/rcolina/.buildout/eggs/Paste-1.7.5.1-py2.7.egg',
+    '/home/rcolina/buildout_tutorial/src',
+    ]
+
+
+import zopeskel.zopeskel_script
+
+if __name__ == '__main__':
+    sys.exit(zopeskel.zopeskel_script.run())

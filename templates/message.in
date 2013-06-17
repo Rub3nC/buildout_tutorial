@@ -1,0 +1,6 @@
+Querido ${config:nombre},
+
+Ud gano la loteria de TeleSUR que ofrece un premio de ${loteria:premio}
+
+Saludos attr, 
+${loteria:firma}
